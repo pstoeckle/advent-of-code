@@ -1,3 +1,7 @@
+# SPDX-FileCopyrightText: 2023 Patrick Stoeckle
+#
+# SPDX-License-Identifier: Apache-2.0
+
 from unittest import TestCase
 from pathlib import Path
 from advent_of_code.gear_ratios import solve_puzzle
