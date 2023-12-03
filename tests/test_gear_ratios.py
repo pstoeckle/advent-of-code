@@ -20,5 +20,8 @@ class QuizTest(TestCase):
     def test_part_two(self) -> None:
         self.assertEqual(part_two(Path("tests") / "rsc" / "t.txt"), 467835)
 
+    def test_part_two(self) -> None:
+        self.assertEqual(part_two(Path("tests") / "rsc" / "real.txt"), 78236071)
+
 if "__main__" == __name__:
     main()
